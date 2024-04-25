@@ -1,0 +1,119 @@
+body {
+    background-color: #FFEED8 ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+Footer {
+    background-color: grey;
+    color: #fff;
+    padding: 1rem;
+}
+header {
+    background-color: #61C9A8 ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+.movie {
+    text-align: center; 
+}
+.movie img {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    max-height: 300px; 
+    display: block; 
+    margin: 0 auto; /* Centra horizontalmente la imagen dentro del contenedor */
+}
+.movie3 {
+    text-align: center; 
+}
+.movie3 {
+    background-color: #5DADE2 ; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    width: fit-content; 
+    margin: auto; 
+    margin-top: 10px; 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+.cines-container {
+    width: 700px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+@media only screen and (max-width: 768px) {
+    .cines-container {
+        width: 90%; 
+}
+}
+h4 {
+    background-color: #d95757; 
+    padding: 10px; 
+    text-decoration: underline;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    max-width: fit-content; 
+}
+.calendar {
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .calendar td {
+    padding: 10px;
+    border: 1px solid #ccc;  
+    max-width: 600px
+  }
+  .calendar th {
+    background-color: #c66464;
+    max-width: 600px
+  }
+  @media (max-width: 600px) {
+    .calendar th,
+    .calendar td {
+      padding: 5px;
+    }
+    .calendar td {
+      font-size: 12px;
+    }
+  }

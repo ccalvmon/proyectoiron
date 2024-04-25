@@ -1,0 +1,111 @@
+body {
+    background-color: #FFEED8 ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#contenedorListaPeliculas {
+    width: 90%; /* Ancho del contenedor */
+    margin: 30px auto; /* Centrar horizontalmente y agregar espacio en la parte superior e inferior */
+    padding: 20px; /* Espacio interior */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    background-color: #bae0cc; /* Color de fondo */
+    text-align: center; /* Centrar el texto */
+    
+}
+
+#contenedorListaPeliculas ul {
+    margin-bottom: 0; /* Eliminar el margen inferior de la lista */
+}
+
+
+#listaPeliculas {
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid #bf1e1e;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center; /* Centrar el contenido */
+}
+
+#listaPeliculas img {
+    width: 200px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+#listaPeliculas2 {
+    list-style-type: none;
+    padding: 10px; /* Espacio interno */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    width: 50%; /* Ajusta el ancho si es necesario */
+
+}
+#contenedorPeliculasSugeridas {
+    width: 40%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto dentro del div */
+    background-color: #c8e8bf;
+}
+
+
+#listaPeliculas2 li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#cambiarColor {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff00cc, #ff6a00, #ffcc00); /* Degradado de colores */
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#cambiarColor:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+    box-shadow: 0 0 10px rgba(49, 153, 35, 0.3); /* Sombra alrededor del botón */
+}
+
+
+.resaltado {
+    background-color: rgb(255, 0, 225);
+}
+
+
+header {
+    background-color: #61C9A8 ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+}
+Footer {
+    background-color: grey;
+    color: #fff;
+    padding: 1rem;
+}
+.rating {
+    font-size: 24px;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star:hover,
+  .star.active {
+    color: gold;
+  }
+  

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Proyecto.css">
+</head>
+<body>
+    <header>
+        <h1>Pillalas.coma</h1>
+        <nav>
+            <ul>
+                <li><a href="movies.html">Lista de Películas</a></li>
+                <li><a href="nuevo.html">Propuestas</a></li>
+                <li><a href="nuevo1.html">Juego</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                
+            </ul>
+        </nav>
+ <div>
+</header>
+<main>
+    <body>
+        <h3>Sugerir Películas por Género</h3>
+        <h4>Aventura</h4>
+        <ul>
+            <li>Piratas del Caribe: La Maldición del Perla Negra</li>
+            <li>Indiana Jones: En busca del arca perdida</li>
+            <li>El Señor de los Anillos: La Comunidad del Anillo</li>
+            <li>Jurassic Park</li>
+        </ul>
+        
+        <h4>Comedia</h4>
+        <ul>
+            <li>La La Land</li>
+            <li>Toy Story</li>
+            <li>The Hangover</li>
+            <li>Superbad</li>
+        </ul>
+    
+        <h4>Drama</h4>
+        <ul>
+            <li>The Shawshank Redemption</li>
+            <li>Forrest Gump</li>
+            <li>Gladiator</li>
+            <li>The Godfather</li>
+        </ul>
+    
+        <h4>Acción</h4>
+        <ul>
+            <li>Terminator 2: Judgment Day</li>
+            <li>Die Hard</li>
+            <li>Mad Max: Fury Road</li>
+            <li>John Wick</li>
+        </ul>
+    
+        <h4>Ciencia Ficción</h4>
+        <ul>
+            <li>Blade Runner</li>
+            <li>The Matrix</li>
+            <li>Star Wars: Episode IV - A New Hope</li>
+            <li>Inception</li>
+        </ul>
+    
+        <h4>Romance</h4>
+        <ul>
+            <li>Titanic</li>
+            <li>The Notebook</li>
+            <li>La La Land</li>
+            <li>Before Sunrise</li>
+        </ul>
+        <form action="procesar_formulario.php" method="POST">
+            <h3><label for="genero">Selecciona un género:</label>
+            <select id="genero" name="genero">
+                <option value="Aventura">Aventura</option>
+                <option value="Comedia">Comedia</option>
+                <option value="Drama">Drama</option>
+                <option value="Acción">Acción</option>
+                <option value="Ciencia ficción">Ciencia ficción</option>
+                <option value="Romance">Romance</option></h3>
+            </select>
+        </form>
+        <table class="calendar">
+            <caption>Marzo 2024</caption>
+            <thead>
+              <tr>
+                <th>Lun</th>
+                <th>Mar</th>
+                <th>Mie</th>
+                <th>Jue</th>
+                <th>Vie</th>
+                <th>Sab</th>
+                <th>Dom</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+    </html>
+</main>
+<footer>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+    <p>&copy; 2024 Mis Películas Favoritas</p>
+</footer>
+</html>  

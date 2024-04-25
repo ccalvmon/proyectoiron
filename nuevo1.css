@@ -1,0 +1,91 @@
+#sopaDeLetras {
+    width: 80%; /* Ancho deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espacio interior */
+    display: grid;
+    grid-template-columns: repeat(10, minmax(10%, 1fr)); /* 10 columnas de tamaño mínimo de 30px */
+    grid-template-rows: repeat(10, minmax(10%, 1fr)); /* 10 filas de tamaño mínimo de 30px */
+    gap: 5px; /* Espacio entre las casillas */
+    justify-content: center; /* Centrar horizontalmente en dispositivos móviles */
+    margin-bottom: 40px;
+}
+
+.casilla {
+    width: 100%; /* Ajustar el ancho para ocupar el espacio disponible */
+    height: 100%; /* Ajustar la altura para ocupar el espacio disponible */
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px; /* Centrar verticalmente el contenido */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre las casillas */
+    font-size: 1.2em; /* Tamaño de fuente adaptable */
+}
+
+
+
+.casilla.seleccionada {
+    background-color: yellow;
+}
+#palabrasClave {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px; /* Reducir el espacio interior */
+    width: 150px; /* Reducir el ancho del cuadro */
+    margin: 20px auto;
+}
+
+#palabrasClave h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px; /* Reducir el tamaño del título */
+}
+
+#palabrasClave ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px; /* Añadir un poco de espacio entre el título y la lista */
+}
+
+#palabrasClave li {
+    margin-bottom: 5px;
+    padding: 3px; /* Reducir el espacio interior de los elementos de la lista */
+    background-color: #91ac87;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px; /* Reducir el tamaño del texto */
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ratingText {
+    text-align: center;
+  }
+  body {
+    background-color: #FFEED8 ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+Footer {
+    background-color: grey;
+    color: #fff;
+    padding: 1rem;
+}
+header {
+    background-color: #61C9A8 ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+} 
+header h1 {
+    margin: 0;
+}
+h3 {
+    text-align: center;
+}
